@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>distancias</title>
+</head>
+
+<body>
+    <script>
+        const distancia = parseInt(prompt('Ingrese distancia en metros'));
+        if (distancia > 0 && distancia <= 1000) {
+            document.write(`pie`);
+        } else if (distancia > 1000 && distancia <= 10000) {
+            document.write(`bicicleta`);
+        } 
+        if (distancia > 10000 && distancia <= 30000) {
+            document.write(`colectivo`);
+        } else if (distancia > 30000 && distancia <= 100000) {
+            document.write(`auto`);
+        }
+        if (distancia > 100000) {
+            document.write(`avion`)
+        }
+const number = ['1', '23', '25', '40', '55'];
+let mayor= 0;
+for( let i = 0; i <number.length; i++){
+    if (number [i] > mayor)
+    mayor= number [i]
+  
+}
+ console.log (`el mayor de ${number} es ${mayor}`)
+
+    </script>
+</body>
+
+</html>
