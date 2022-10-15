@@ -1,0 +1,57 @@
+/*font-family: 'Quicksand', sans-serif;
+font-family: 'Splash', cursive; */
+footer {
+    background-color: beige;
+}
+
+h1 {
+    font-family: 'Splash', cursive;
+}
+
+P {
+    font-family: 'Quicksand', sans-serif
+}
+
+.hero {
+    background: url(../img/fotoinicio.jpg) no-repeat;
+    background-size: cover;
+    height: 50vh;
+    min-height: 600px;
+    color: blank;
+}
+
+.datos li{
+margin: 0;
+padding: 0;
+list-style: none;
+}
+
+.datos li{
+    margin: 30px 0;
+}
+
+.datos li a{
+    background-color: beige;
+    font-family:'Quicksand', sans-serif ;
+    text-decoration: none;
+    font-size: 1,2rem;
+    color: black;
+    transition: all .2s ease-in-out;
+    display: block;
+}
+
+.datos li a:hover {
+color: rgb(68, 68, 67);
+background-color: #fce6b7;
+}
+
+h2 {
+    font-family: 'Quicksand', sans-serif
+}
+
+.Novedades {
+    width: 300px;
+    height: 400px; 
+    
+}
+
